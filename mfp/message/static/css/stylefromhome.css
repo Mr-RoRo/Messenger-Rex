@@ -1,89 +1,91 @@
 li a:hover {
-    color: #f95700;
-    transition: all 1s;
+  color: #f95700;
+  transition: all 1s;
 }
 
 ul {
-    display: flexbox;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-weight:normal;
-    font: icon;
-    font-size: x-large;
+  display: flexbox;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: normal;
+  font: icon;
+  font-size: x-large;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li a {
-    display: block;
-    color: rgb(191, 186, 186);
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
+  display: block;
+  color: rgb(191, 186, 186);
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
 }
 
-.title{
-    display:flex;
-    justify-content: center;
+.title {
+  display: flex;
+  justify-content: center;
 }
 
-.rex{
-    width: 330px;
-    height: 300px;
-    background-image: url('../image/logo-rex.png');
-    background-size: cover;
-    margin: 40px;
+.rex {
+  width: 330px;
+  height: 300px;
+  background-image: url("../image/logo-rex.png");
+  background-size: cover;
+  margin: 40px;
 }
 
-.txttitle{
-    font: icon;
-    font-size: 40px;
-    margin-top: 180px;
+.txttitle {
+  font: icon;
+  font-size: 40px;
+  margin-top: 180px;
 }
-.txttitle2{
-    font: icon;
-    font-size: 40px;
-    margin-top: 50px;
-    text-align: center;
+.txttitle2 {
+  font: icon;
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .friends {
-    display: flex;
-    justify-content: center;
-    width: calc(100% / 4); 
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: calc(100% / 4);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 20px;
 }
 
-
-.friendsimag{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.friendsimag {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-.hr{
-    width: 80%;
-    align-items: center;
+.hr {
+  width: 80%;
+  align-items: center;
 }
 
-.linkusername{
-    display: block; 
-    text-decoration: none;
-    font: icon;
-    font-size: large;
-    margin-top: 40px;
-    margin-right: 20px;
+.linkusername {
+  display: block;
+  text-decoration: none;
+  font: icon;
+  font-size: large;
+  margin-top: 40px;
+  margin-right: 20px;
 }
